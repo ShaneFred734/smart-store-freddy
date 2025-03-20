@@ -21,8 +21,9 @@
     4. git push -u origin main
     Run these codes when making any changes to root project folder to ensure push to git on web
 ---
-## Initial Package List
 
+## Important Packages to install and update
+Initial Package List
 - pip
 - loguru
 - ipykernel
