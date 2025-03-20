@@ -1,80 +1,22 @@
-# smart-sales-starter-files
+1. Create a Repository in GitHub
+Name repository smart-store-yourname.
+Make sure Public is selected.
+Make sure to add README.md (Click the Box)
+Create repository.
 
-Starter files to initialize the smart sales project.
-
------
-
-## Project Setup Guide (1-Mac/Linux)
-
-Run all commands from a terminal in the root project folder. 
-
-### Step 1A - Create a Local Project Virtual Environment
-
-```shell
-python3 -m venv .venv
-```
-
-### Step 1B - Activate the Virtual Environment
-
-```shell
-source .venv/bin/activate
-```
-
-### Step 1C - Install Packages
-
-```shell
-python3 -m pip install --upgrade -r requirements.txt
-```
-
-### Step 1D - Optional: Verify .venv Setup
-
-```shell
-python3 -m datafun_venv_checker.venv_checker
-```
-
-### Step 1E - Run the initial project script
-
-```shell
-python3 scripts/data_prep.py
-```
-
------
-
-## Project Setup Guide (2-Windows)
-
+2. Open VS Code 
+Clone repo using git clone paste url
+Open Root Project Folder 
+Make sure Project folder is stored locally (Windows (C:))
 Run all commands from a PowerShell terminal in the root project folder.
 
-### Step 2A - Create a Local Project Virtual Environment
-
-```shell
-py -m venv .venv
-```
-
-### Step 2B - Activate the Virtual Environment
-
-```shell
-.venv\Scripts\activate
-```
-
-### Step 2C - Install Packages
-
-```shell
-py -m pip install --upgrade -r requirements.txt
-```
-
-### Step 2D - Optional: Verify .venv Setup
-
-```shell
-py -m datafun_venv_checker.venv_checker
-```
-
-### Step 2E - Run the initial project script
-
-```shell
-py scripts/data_prep.py
-```
-
------
+3. Create Folders and Files in Root Project Folder
+Commit Push and Pull to main origin using code below
+git add .
+git clone "urlexample.git"
+git commit -m "add .gitignore, cmds to readme"
+git push -u origin main
+Run these codes when making any changes to root project folder to ensure push to git on web
 
 ## Initial Package List
 
