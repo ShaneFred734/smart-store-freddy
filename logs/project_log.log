@@ -277,3 +277,49 @@ dtype: int64
 2025-03-27 17:55:08.144 | INFO     | __main__:main:202 - ==================================
 2025-03-27 17:55:08.144 | INFO     | __main__:main:203 - FINISHED prepare_customers_data.py
 2025-03-27 17:55:08.146 | INFO     | __main__:main:204 - ==================================
+2025-03-27 17:59:28.437 | INFO     | utils.logger:<module>:36 - Logging to file: logs\project_log.log
+2025-03-27 17:59:28.438 | INFO     | __main__:main:227 - ==================================
+2025-03-27 17:59:28.438 | INFO     | __main__:main:228 - STARTING prepare_products_data.py
+2025-03-27 17:59:28.439 | INFO     | __main__:main:229 - ==================================
+2025-03-27 17:59:28.440 | INFO     | __main__:main:231 - Root project folder: C:\Projects\smart-store-freddy
+2025-03-27 17:59:28.441 | INFO     | __main__:main:232 - data / raw folder: C:\Projects\smart-store-freddy\data\raw
+2025-03-27 17:59:28.441 | INFO     | __main__:main:233 - data / prepared folder: C:\Projects\smart-store-freddy\data\prepared
+2025-03-27 17:59:28.442 | INFO     | __main__:read_raw_data:59 - FUNCTION START: read_raw_data with file_name=products_data.csv
+2025-03-27 17:59:28.442 | INFO     | __main__:read_raw_data:61 - Reading data from C:\Projects\smart-store-freddy\data\raw\products_data.csv
+2025-03-27 17:59:28.489 | INFO     | __main__:read_raw_data:63 - Loaded dataframe with 8 rows and 6 columns
+2025-03-27 17:59:28.490 | INFO     | __main__:main:242 - Initial dataframe columns: ProductID, ProductName, Category, UnitPrice, StockQuantity, Supplier
+2025-03-27 17:59:28.491 | INFO     | __main__:main:243 - Initial dataframe shape: (8, 6)
+2025-03-27 17:59:28.493 | INFO     | __main__:main:252 - Cleaned column names: ProductID -> productid, ProductName -> productname, Category -> category, UnitPrice -> unitprice, StockQuantity -> stockquantity, Supplier -> supplier
+2025-03-27 17:59:28.494 | INFO     | __main__:remove_duplicates:96 - FUNCTION START: remove_duplicates with dataframe shape=(8, 6)
+2025-03-27 17:59:28.497 | INFO     | __main__:remove_duplicates:106 - Removed 0 duplicate rows
+2025-03-27 17:59:28.498 | INFO     | __main__:remove_duplicates:107 - 8 records remaining after removing duplicates.
+2025-03-27 17:59:28.499 | INFO     | __main__:handle_missing_values:121 - FUNCTION START: handle_missing_values with dataframe shape=(8, 6)
+2025-03-27 17:59:28.503 | INFO     | __main__:handle_missing_values:126 - Missing values by column before handling:
+productid        0
+productname      0
+category         0
+unitprice        0
+stockquantity    1
+supplier         2
+dtype: int64
+2025-03-27 17:59:28.507 | INFO     | __main__:handle_missing_values:140 - Missing values by column after handling:
+productid        0
+productname      0
+category         0
+unitprice        0
+stockquantity    1
+supplier         2
+dtype: int64
+2025-03-27 17:59:28.508 | INFO     | __main__:handle_missing_values:141 - 8 records remaining after handling missing values.
+2025-03-27 17:59:28.509 | INFO     | __main__:standardize_formats:188 - FUNCTION START: standardize_formats with dataframe shape=(8, 6)
+2025-03-27 17:59:28.511 | INFO     | __main__:standardize_formats:198 - Completed standardizing formats
+2025-03-27 17:59:28.511 | INFO     | __main__:remove_outliers:155 - FUNCTION START: remove_outliers with dataframe shape=(8, 6)
+2025-03-27 17:59:28.512 | INFO     | __main__:remove_outliers:174 - Removed 0 outlier rows
+2025-03-27 17:59:28.512 | INFO     | __main__:remove_outliers:175 - 8 records remaining after removing outliers.
+2025-03-27 17:59:28.513 | INFO     | __main__:validate_data:211 - FUNCTION START: validate_data with dataframe shape=(8, 6)
+2025-03-27 17:59:28.514 | INFO     | __main__:validate_data:220 - Data validation complete
+2025-03-27 17:59:28.515 | INFO     | __main__:save_prepared_data:81 - FUNCTION START: save_prepared_data with file_name=products_data_prepared.csv, dataframe shape=(8, 6)
+2025-03-27 17:59:28.521 | INFO     | __main__:save_prepared_data:84 - Data saved to C:\Projects\smart-store-freddy\data\prepared\products_data_prepared.csv
+2025-03-27 17:59:28.522 | INFO     | __main__:main:264 - ==================================
+2025-03-27 17:59:28.522 | INFO     | __main__:main:265 - FINISHED prepare_products_data.py
+2025-03-27 17:59:28.523 | INFO     | __main__:main:266 - ==================================
