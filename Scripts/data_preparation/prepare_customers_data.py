@@ -34,7 +34,7 @@ ruff will ignore the warning on just that line.
 
 import pathlib
 import sys
-import pandas as pd 
+import pandas as pd
 
 # For local imports, temporarily add project root to Python sys.path
 PROJECT_ROOT = pathlib.Path(__file__).resolve().parent.parent.parent
