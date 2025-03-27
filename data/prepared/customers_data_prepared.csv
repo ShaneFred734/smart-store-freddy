@@ -9,4 +9,4 @@ CustomerID,Name,Region,JoinDate,LoyaltyPoints,PreferredContactMethod
 1008,Tony Stark,North,5/1/2020,540,phone
 1009,Jason Bourne,West,12/1/2020,375,text
 1010,Hermione Granger,East,12/9/2022,467,text
-1011,Hermione Grager,East,12/9/2022,0,phone,
+1011,Hermione Grager,East,12/9/2022,10,phone
