@@ -1,9 +1,9 @@
 productid,productname,category,unitprice,stockquantity,supplier
-101,laptop,Electronics,793.12,50.0,HP
-102,hoodie,Clothing,39.1,,Nike
-103,cable,Electronics,22.76,85.0,HP
-104,hat,Clothing,43.1,200.0,Richardson
-105,football,Sports,19.78,60.0,
-106,controller,Electronics,88.98,75.0,Sony
-107,jacket,Clothing,67.02,150.0,
-108,protector,Electronics,12.56,30.0,Samsung
+101,laptop,Electronics,793.12,50,HP
+102,hoodie,Clothing,39.1,0,Nike
+103,cable,Electronics,22.76,85,HP
+104,hat,Clothing,43.1,200,Richardson
+105,football,Sports,19.78,60,
+106,controller,Electronics,88.98,75,Sony
+107,jacket,Clothing,67.02,150,
+108,protector,Electronics,12.56,30,Samsung

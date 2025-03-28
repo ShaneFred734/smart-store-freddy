@@ -14,8 +14,8 @@ To run it, open a terminal in the root project folder.
 Activate the local project virtual environment.
 Choose the correct command for your OS to run this script.
 
-py scripts\data_prep.py
-python3 scripts\data_prep.py
+py scripts\\data_prep.py
+python3 scripts\\data_prep.py
 
 NOTE: I use the ruff linter. 
 It warns if all import statements are not at the top of the file.  
