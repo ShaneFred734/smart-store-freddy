@@ -1,4 +1,4 @@
-## Create a Repository in GitHub
+# ## Create a Repository in GitHub
 
 ```
     Name repository     smart-store-yourname.
@@ -6,7 +6,7 @@
     Make sure to add README.md (Click the Box)
     Create repository.
 ---
-## Open VS Code
+# ## Open VS Code
 ```
 
     Clone repo using git clone paste url
@@ -16,7 +16,7 @@
 
 ---
 
-## Create Folders and Files in Root Project Folder
+# ## Create Folders and Files in Root Project Folder
 
 ```
     Commit Push and Pull to main origin using code below
@@ -27,11 +27,11 @@
     Run these codes when making any changes to root project folder to ensure push to git on web
 ---
 
-## Install Packages
+# ## Install Packages
 
     source py -m pip install --upgrade -r requirements.txt
 ---
-## Create Folders
+# ## Create Folders
  data
    - raw
    - prepared
@@ -39,30 +39,30 @@
  utils
  ---
 
-## Create scripts data_scrubber.py and data_prep.py
+# ## Create scripts data_scrubber.py and data_prep.py
     Copy file contents from starter repo provided
 
-## Create tests folder and script file test_data_scrubber.py
+# ## Create tests folder and script file test_data_scrubber.py
     Copy file contents from starter repo provided
 
-## Execute test script to confirm data_scrubber.py runs without error
+# ## Execute test script to confirm data_scrubber.py runs without error
 
     python tests/test_data_scrubber.py
 ---
-## Create logger.py and data_prep.py
+# ## Create logger.py and data_prep.py
     Create `logger.py` file under utils folder
     Find `logger.py` file in course repo and copy/paste contents into local `logger.py`
     Create `data_prep.py` file under scripts folder
     Find `data_prep.py` file under `smart-sales-starter-files` repo and copy/paste into local `data_prep.py`
     Execute Python script: py scripts\data_prep.py
 ---
-## Data Collection
+# ## Data Collection
     -Add to `customers_data.csv`two new columns: LoyaltyPoints and PreferredContactMethod columns
     -Add to `products_data.csv`two new columns: StockQuantity and Supplier columns
     -Add to `sales_data.csv`two new columns: BonusPoints and State
     -Add your own data to all the new columns
 
-## Data Cleaning & Prep
+# ## Data Cleaning & Prep
     Create `data_preparation` subfolder in scripts
     Create phyton file for each data table
         -prepare_customers.data.py
