@@ -904,3 +904,22 @@ dtype: int64
 2025-03-28 11:12:46.545 | INFO     | __main__:main:124 - ======================
 2025-03-28 11:12:46.545 | INFO     | __main__:main:125 - FINISHED data_prep.py
 2025-03-28 11:12:46.546 | INFO     | __main__:main:126 - ======================
+2025-03-28 22:05:19.856 | INFO     | utils.logger:<module>:36 - Logging to file: logs\project_log.log
+2025-03-28 22:05:19.860 | INFO     | __main__:main:59 - ======================
+2025-03-28 22:05:19.861 | INFO     | __main__:main:60 - STARTING data_prep.py
+2025-03-28 22:05:19.862 | INFO     | __main__:main:61 - ======================
+2025-03-28 22:05:19.862 | INFO     | __main__:main:63 - ========================
+2025-03-28 22:05:19.863 | INFO     | __main__:main:64 - Starting CUSTOMERS prep
+2025-03-28 22:05:19.864 | INFO     | __main__:main:65 - ========================
+2025-03-28 22:05:19.938 | INFO     | __main__:save_prepared_data:55 - Data saved to C:\Projects\smart-store-freddy\data\prepared\customers_data_prepared.csv
+2025-03-28 22:05:19.940 | INFO     | __main__:main:85 - ========================
+2025-03-28 22:05:19.941 | INFO     | __main__:main:86 - Starting PRODUCTS prep
+2025-03-28 22:05:19.941 | INFO     | __main__:main:87 - ========================
+2025-03-28 22:05:20.017 | INFO     | __main__:save_prepared_data:55 - Data saved to C:\Projects\smart-store-freddy\data\prepared\products_data_prepared.csv
+2025-03-28 22:05:20.018 | INFO     | __main__:main:103 - ========================
+2025-03-28 22:05:20.019 | INFO     | __main__:main:104 - Starting SALES prep
+2025-03-28 22:05:20.019 | INFO     | __main__:main:105 - ========================
+2025-03-28 22:05:20.092 | INFO     | __main__:save_prepared_data:55 - Data saved to C:\Projects\smart-store-freddy\data\prepared\sales_data_prepared.csv
+2025-03-28 22:05:20.093 | INFO     | __main__:main:124 - ======================
+2025-03-28 22:05:20.093 | INFO     | __main__:main:125 - FINISHED data_prep.py
+2025-03-28 22:05:20.094 | INFO     | __main__:main:126 - ======================
