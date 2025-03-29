@@ -7,13 +7,13 @@
     Create repository.
 ---
 # ## Open VS Code
+
 ```
 
     Clone repo using git clone paste url
     Open Root Project Folder
     Make sure Project folder is stored locally (Windows (C:))
     Run all commands from a PowerShell terminal in the root project folder.
-
 ---
 
 # ## Create Folders and Files in Root Project Folder
@@ -29,18 +29,24 @@
 
 # ## Install Packages
 
+```
     source py -m pip install --upgrade -r requirements.txt
 ---
 # ## Create Folders
+
+```
  data
    - raw
    - prepared
  scripts
  utils
- ---
+---
 
 # ## Create scripts data_scrubber.py and data_prep.py
+
+```
     Copy file contents from starter repo provided
+---
 
 # ## Create tests folder and script file test_data_scrubber.py
     Copy file contents from starter repo provided
