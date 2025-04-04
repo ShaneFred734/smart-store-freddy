@@ -966,3 +966,7 @@ dtype: int64
 2025-04-04 12:10:00.205 | INFO     | __main__:main:43 - Starting data warehouse creation...
 2025-04-04 12:10:00.206 | INFO     | __main__:create_dw:31 - Data warehouse created successfully.
 2025-04-04 12:10:00.206 | INFO     | __main__:main:45 - Data warehouse creation complete.
+2025-04-04 12:15:45.205 | INFO     | utils.logger:<module>:36 - Logging to file: logs\project_log.log
+2025-04-04 12:15:45.205 | INFO     | __main__:main:43 - Starting data warehouse creation...
+2025-04-04 12:15:45.206 | INFO     | __main__:create_dw:31 - Data warehouse created successfully.
+2025-04-04 12:15:45.206 | INFO     | __main__:main:45 - Data warehouse creation complete.
