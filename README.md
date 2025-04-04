@@ -81,6 +81,18 @@
     Run test script
     python tests\test_data_scrubber.py
 
+## ETL to datawarehouse process
+    Desgin schema
+    Create one fact (Sale) table and two dimension tables (Customer & Product)
+    Each table needs one primary key
+    Column names are VERY IMPORTANT. Make sure they match .csv file column names
+    Use SQLite to run table query
+    script etl_to_dw.py to populate datawarehouse (run file)
+    Check for errors
+
+## Data warehouse schema
+![alt text](image.png)
+
 Important Packages to install and update
 Initial Package List
 
