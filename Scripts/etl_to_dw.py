@@ -32,7 +32,7 @@ def create_schema(cursor: sqlite3.Cursor) -> None:
             product_name TEXT,
             category TEXT,
             unit_price INTEGER,
-            stockquantity INTEGER,
+            stock_quantity INTEGER,
             supplier TEXT
         )
     """)
@@ -47,6 +47,7 @@ def create_schema(cursor: sqlite3.Cursor) -> None:
             store_id INTEGER,
             campaign_id INTEGER,
             sale_amount REAL,
+            state TEXT,
             bonus_points INTEGER,
             FOREIGN KEY (customer_id) REFERENCES customer (customer_id),
             FOREIGN KEY (product_id) REFERENCES product (product_id)

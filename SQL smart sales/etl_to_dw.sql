@@ -12,7 +12,7 @@ CREATE TABLE IF NOT EXISTS product (
     product_name TEXT,
     category TEXT,
     unit_price INTEGER,
-    stockquantity INTEGER,
+    stock_quantity INTEGER,
     supplier TEXT
 );
 
@@ -25,6 +25,7 @@ CREATE TABLE IF NOT EXISTS sale (
     store_id INTEGER,
     campaign_id INTEGER,
     sale_amount REAL,
+    state TEXT,
     bonus_points INTEGER,
     FOREIGN KEY (customer_id) REFERENCES customer (customer_id),
     FOREIGN KEY (product_id) REFERENCES product (product_id)
