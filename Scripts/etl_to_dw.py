@@ -43,6 +43,8 @@ def create_customer_table(cursor: sqlite3.Cursor) -> None:
                 name TEXT,
                 region TEXT,
                 join_date TEXT  -- ISO 8601 format recommended for SQLite
+                loyalty_points INTEGER,
+                preferred_contact_method TEXT
             )
         """)
         logger.info("customer table created.")
@@ -58,7 +60,8 @@ def create_product_table(cursor: sqlite3.Cursor) -> None:
                 name TEXT,
                 category TEXT,
                 unit_price REAL,
-                supplier TEXT
+                supplier TEXT,
+                stock_quantity INTEGER
             )
         """)
         logger.info("product table created.")
@@ -78,6 +81,8 @@ def create_sale_table(cursor: sqlite3.Cursor) -> None:
                 sale_date DATE,
                 quantity INTEGER,
                 sale_amount REAL,
+                bonus_points INTEGER,
+                payment_type TEXT,
                 FOREIGN KEY (customer_id) REFERENCES customer(customer_id),
                 FOREIGN KEY (product_id) REFERENCES product(product_id)
             )
