@@ -958,3 +958,7 @@ dtype: int64
 2025-04-04 10:06:25.016 | INFO     | __main__:create_sale_table:90 - sale table created.
 2025-04-04 10:06:25.018 | INFO     | __main__:create_dw:109 - Data warehouse created successfully.
 2025-04-04 10:06:25.019 | INFO     | __main__:main:123 - Data warehouse creation complete.
+2025-04-04 12:05:44.380 | INFO     | utils.logger:<module>:36 - Logging to file: logs\project_log.log
+2025-04-04 12:05:44.381 | INFO     | __main__:main:43 - Starting data warehouse creation...
+2025-04-04 12:05:44.382 | INFO     | __main__:create_dw:31 - Data warehouse created successfully.
+2025-04-04 12:05:44.382 | INFO     | __main__:main:45 - Data warehouse creation complete.
