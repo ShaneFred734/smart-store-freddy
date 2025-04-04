@@ -27,19 +27,20 @@ def create_schema(cursor: sqlite3.Cursor) -> None:
     """)
     
     cursor.execute("""
-        CREATE TABLE IF NOT EXISTS product (
+       CREATE TABLE IF NOT EXISTS product (
             product_id INTEGER PRIMARY KEY,
             product_name TEXT,
             category TEXT,
             unit_price INTEGER,
-            stock_quantity INTEGER,
-            supplier TEXT
+            stockquantity INTEGER,
+         supplier TEXT
         )
     """)
     
     cursor.execute("""
         CREATE TABLE IF NOT EXISTS sale (
             sale_id INTEGER PRIMARY KEY,
+            transaction_id INTEGER,
             sale_date TEXT,
             customer_id INTEGER,
             product_id INTEGER,

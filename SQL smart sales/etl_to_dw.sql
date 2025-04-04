@@ -19,6 +19,7 @@ CREATE TABLE IF NOT EXISTS product (
 CREATE TABLE IF NOT EXISTS sale (
     sale_id INTEGER PRIMARY KEY,
     sale_date TEXT,
+    transaction_id INTEGER, 
     customer_id INTEGER,
     product_id INTEGER,
     store_id INTEGER,
