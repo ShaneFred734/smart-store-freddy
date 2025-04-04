@@ -33,7 +33,7 @@ def create_schema(cursor: sqlite3.Cursor) -> None:
             category TEXT,
             unit_price INTEGER,
             stockquantity INTEGER,
-         supplier TEXT
+            supplier TEXT
         )
     """)
     
