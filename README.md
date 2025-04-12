@@ -91,7 +91,7 @@
     Check for errors
 
 ## Data warehouse schema
-    ![alt text](image.png)
+![alt text](image.png)
 
 Important Packages to install and update
 Initial Package List
@@ -112,9 +112,9 @@ Initial Package List
         In the Home tab, click Transform Data to open Power Query Editor.
         In Power Query, click Advanced Editor (top menu).
         Delete any code in the editor and replace it with your SQL query (example below). You must use your table names and column names for the SQL to work. 
-        ![alt text](image-2.png) 
+![alt text](image-2.png) 
     Power BI Model View
-        ![alt text](image-1.png)
+![alt text](image-1.png)
     Charts
 ![alt text](image-4.png) 
 ![alt text](image-5.png) 
