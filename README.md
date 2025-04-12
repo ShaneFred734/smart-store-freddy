@@ -96,6 +96,36 @@
 Important Packages to install and update
 Initial Package List
 
+## Reporting with Power BI
+    Load Tables
+        Open Power BI Desktop.
+        Click Get Data (top left) → Select ODBC from the list.
+        Choose the DSN you created in Task 1 (e.g., SmartSalesDSN).
+        Click OK. Wait a moment. Power BI will show a list of available tables.
+        Select the tables you want to analyze - for most of us: 
+        Customer table
+        Product table
+        Sales table
+        Click Load to bring the tables into Power BI.
+        Switch to Model view (left panel) to see how the tables are connected.
+    SQL Query
+        In the Home tab, click Transform Data to open Power Query Editor.
+        In Power Query, click Advanced Editor (top menu).
+        Delete any code in the editor and replace it with your SQL query (example below). You must use your table names and column names for the SQL to work. 
+![alt text](image-2.png) 
+    Power BI Model View
+![alt text](image-1.png)
+    Charts
+![alt text](image-4.png) 
+![alt text](image-5.png) 
+![alt text](image-7.png) 
+
+## Git Add-Commit-Push
+    git add .
+    git commit -m "Completed analysis and visualization"
+    git push -u origin main
+
+    
 - pip
 - loguru
 - ipykernel
