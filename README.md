@@ -93,9 +93,6 @@
 ## Data warehouse schema
 ![alt text](image.png)
 
-Important Packages to install and update
-Initial Package List
-
 ## Reporting with Power BI
     Load Tables
         Open Power BI Desktop.
@@ -124,8 +121,46 @@ Initial Package List
     git add .
     git commit -m "Completed analysis and visualization"
     git push -u origin main
+## Module 6
+    Section 1. The Business Goal
+        Calculate the average transaction size per customer. This helps identify low-value vs high-value customers for upselling and reward strategies.
 
-    
+    Section 2. Data Source
+        - **Database**: `smart_sales.db` (SQLite)
+        - **Tables Used**: `sales`, `customer`
+        - **Columns Used**: 
+        - `Customer_ID`
+        - `Sale_Amount`
+        - `Name`
+        - `Region`
+        - `Sale_Date`
+
+    Section 3. Tools
+        - **Power BI**: For visual OLAP analysis and DAX-based aggregation
+        - DAX for creating measures
+        - Visuals: bar chart, matrix, slicers
+
+    Section 4. Workflow & Logic
+        - Imported SQLite data into Power BI
+        - Created measures:
+            ```DAX
+            TotalSales = SUM(sale[Sale_Amount])
+            TransactionCount = COUNT(sale[Sale_ID])
+            AverageTransactionSize = DIVIDE([TotalSales], [TransactionCount])
+
+    Section 5. Results
+        -Bar Chart: ![alt text](image-8.png) 
+        -Slicer: ![alt text](image-9.png)
+        -Matrix: ![alt text](image-10.png) 
+        -Line Chart: ![alt text](image-11.png) 
+
+    Section 6: Suggested Business Action 
+        - Send promotions to low-spending customers
+        - Create loyalty rewards for high spenders to increase retention
+  
+    Section 7. Challenges
+        - Faced some confusion with creating new measures through DAX. Consulted ChatGPT for help writing new measures and adjusted naming. 
+
 - pip
 - loguru
 - ipykernel
