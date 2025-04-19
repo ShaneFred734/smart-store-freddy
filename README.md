@@ -149,13 +149,13 @@
             AverageTransactionSize = DIVIDE([TotalSales], [TransactionCount])
 
     Section 5. Results
-        -Bar Chart: 
+-Bar Chart: 
 ![alt text](image-8.png) 
-        -Slicer: 
+-Slicer: 
 ![alt text](image-9.png)
-        -Matrix:
+-Matrix:
 ![alt text](image-10.png) 
-        -Line Chart:
+-Line Chart:
 ![alt text](image-11.png) 
 
     Section 6: Suggested Business Action 
