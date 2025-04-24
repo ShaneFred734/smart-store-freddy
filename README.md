@@ -227,7 +227,10 @@ Understanding product and customer dynamics empowers the business to optimize in
 
 
 ## Section 8: Ethical Considerations
-- Excluded customer names and states and also, ensured proper calculations and visuals that showed all data not just parts. 
+  Excluded customer names and states and also, ensured proper calculations and visuals that showed all data not just parts. 
+
+
+
 
 - pip
 - loguru
