@@ -165,6 +165,70 @@
     Section 7. Challenges
         - Faced some confusion with creating new measures through DAX. Consulted ChatGPT for help writing new measures and adjusted naming. 
 
+## Module 7 Updates
+**Business Goal:**  
+To analyze product sales performance across regions over time in order to identify the most profitable product categories and seasonal trends. 
+
+**Why It Matters:**  
+Understanding product and customer dynamics empowers the business to optimize inventory, target marketing efforts, and maximize profit margins across regional markets.
+
+---
+
+## Section 2: Data Source
+
+- **Database:** `smart_sales.db` (SQLite)
+- **Tables Used:**
+  - `sales`
+  - `product`
+  - `customer`
+
+---
+
+## 🛠️ Section 3: Tools Used
+
+- **Power BI Desktop** (for BI dashboard development)
+- **Power Query** (to transform and clean data)
+- **DAX (Data Analysis Expressions)** for creating measures and calculated columns
+- **Git & GitHub** (for version control and documentation)
+
+---
+
+## 🔄 Section 4: Workflow & Logic
+
+1. **Data Import & Modeling**
+   - Loaded tables from `smart_sales.db`
+   - Created relationships between `sales`, `product`, and `customer` tables
+   - Added date-based fields (Year, Quarter, Month) from `sale_date`
+
+2. **Metrics Created (DAX)**
+   - `Total Sales` = `SUM(sales[sale_amount])`
+
+3. **Visual Techniques**
+   - Slicing and dicing across dimensions: product category, region, month
+   - Drilldowns by product and sale amount
+   - Time-series and ranking for trend identification
+
+---
+
+## 📈 Section 5: Results
+![alt text](image-12.png) 
+![alt text](image-13.png) 
+![alt text](image-15.png) 
+## 💡 Section 6: Suggested Business Action
+
+- Focus promotional efforts on top-performing products during high-demand months
+- Adjust inventory planning based on quarterly sales trends
+
+## Section 7: Challenges
+
+- Limited time dimension required creating a custom date table
+- Handling null or missing data in cost and customer fields
+- Only working with one year of data
+
+
+## Section 8: Ethical Considerations
+- Excluded customer names and states and also, ensured proper calculations and visuals that showed all data not just parts. 
+
 - pip
 - loguru
 - ipykernel
